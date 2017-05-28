@@ -1,4 +1,5 @@
 /* General */
+
 * {
     box-sizing: border-box;
 }
@@ -23,10 +24,32 @@ a {
     transition: all .3s;
 }
 
+.greenletter {
+    color: #1ac056;
+    font-weight: 400;
+}
+
+.col-1-2 {
+    width: 50%;
+    float: left;
+}
+
+h2 {
+    text-align: center;
+}
+
+section {
+    padding: 50px 80px 90px 80px;
+}
+/* /General */
+
 /* Nav Menu */
 
 nav#main-nav {
     background-color: #fff;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
 }
 
 nav#main-nav ul {
@@ -49,4 +72,75 @@ nav#main-nav ul li a{
 nav#main-nav ul li a:hover {
     color: #291f1a;
 }
+/* /Nav Menu */
+
+/* Main Header */
+header#main-header {
+    height: 90vh;
+    background-image: url(../img/header-background.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+header#main-header div#h-container {
+    color: #fff;
+    font-family: 'Roboto', 'sans-serif';
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: 300;
+    
+/*
+    height: 100%;
+    padding: 35vh 0;
+    text-align: center;
+*/
+}
+
+header#main-header div#h-container h1,
+header#main-header div#h-container h2 {
+    font-size: 3em;
+    font-weight: 300;
+}
+
+header#main-header div#h-container h2{
+    font-size: 2em;
+    font-weight: 300;
+}
+/* /Main Header */
+
+/* Section About Me */
+section#about-me {
+    background-color: #f9fcfe;
+    overflow: hidden;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.5);
+}
+
+section#about-me figure {
+    margin: 0;
+    text-align: center;
+}
+
+section#about-me figure img {
+     max-width: 100%;
+     max-height: 350px;
+    border: 10px solid #fff;
+    border-radius: 10px;
+}
+
+section#about-me div p {
+    font-weight: 300;
+    line-height: 1.4em;
+}
+/* /Section About Me */
+
+
+
+
+
+
 
