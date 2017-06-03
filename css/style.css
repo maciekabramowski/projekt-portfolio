@@ -151,6 +151,7 @@ section#my-skills div.skills-icons figure{
 section#my-skills div.skills-icons figure img {
     margin-bottom: 15px;
 }
+/* /Section My Skills */
 
 /* Section Portfolio */
 section#portfolio .portfolio-items {
@@ -222,7 +223,9 @@ section#portfolio div#portfolio-item-3 {
     background-image: url(../img/portfolio3.jpg);
 }
 
-/* /Section My Skills */
+/* Section Portfolio */
+
+
 
 
 /* Section Contact */
