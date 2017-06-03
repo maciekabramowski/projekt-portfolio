@@ -9,10 +9,6 @@ html, body {
     color: #291f1a;
 }
 
-body {
-    background-color: antiquewhite; /* background roboczy */
-}
-
 html,
 body,
 nav,
@@ -319,7 +315,15 @@ section#contact {
 /* /Section Contact */
 
 /* Footer */
+footer {
+    background-color: #142634;
+    color: #fff;
+    padding: 0 80px;
+}
 
+footer p {
+    margin: 0;
+}
 
 
 
