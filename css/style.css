@@ -34,11 +34,6 @@ a {
     float: left;
 }
 
-.quarter {
-    width: 25%;
-    display: inline-block;
-}
-
 h2 {
     text-align: center;
 }
@@ -144,9 +139,31 @@ section#about-me div p {
 /* /Section About Me */
 
 /* Section My Skills */
+section#my-skills {
+    background-color: #b0b0f0;
+}
+
 section#my-skills p {
     text-align: center;
 }
+
+section#my-skills div.skills-icons{
+    text-align: center;
+}
+
+section#my-skills div.skills-icons figure{
+    display: inline-block;
+}
+
+section#my-skills div.skills-icons figure img {
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
 
 
 
