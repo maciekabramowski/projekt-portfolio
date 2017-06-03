@@ -26,7 +26,7 @@ a {
 
 .greenletter {
     color: #1ac056;
-    font-weight: 400;
+/*    font-weight: 400;*/
 }
 
 .col-1-2 {
@@ -139,12 +139,9 @@ section#about-me div p {
 /* /Section About Me */
 
 /* Section My Skills */
-section#my-skills {
-    background-color: #b0b0f0;
-}
-
 section#my-skills p {
     text-align: center;
+    font-weight: 300;
 }
 
 section#my-skills div.skills-icons{
@@ -158,6 +155,32 @@ section#my-skills div.skills-icons figure{
 section#my-skills div.skills-icons figure img {
     margin-bottom: 15px;
 }
+
+/* Section Portfolio */
+
+
+section#portfolio div#portfolio-item-1 {
+    background-image: url(../img/portfolio1.jpg);
+}
+
+section#portfolio div#portfolio-item-2 {
+    background-image: url(../img/portfolio2.jpg);
+}
+
+section#portfolio div#portfolio-item-3 {
+    background-image: url(../img/portfolio3.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
